@@ -7,11 +7,13 @@
   </head>
   <body>
     <h1>Welcome!</h1>
-    <h2>If you tell me your name, Ican say hi!</h2>
-    <form class="user_name" action="#" method="post">
-      <label for="text">Name</label>
-      <input class="user_name"type="text"><br>
-      <input type="submit" value="Submit">
-    </form>
+ 
+<form action="/greet" method="POST">
+  <label for="user_name">Name:</label>
+ 
+  <p><input type="text" name="user_name" id="user_name" /></p>
+ 
+  <input type="submit" value="Submit"/>
+</form>
   </body>
 </html>
